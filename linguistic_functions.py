@@ -141,3 +141,26 @@ def IOC(text, blocksize = 1):
         IoC += (number * (number - 1)) / (len(text) * (len(text) - 1))
     print(freqs)
     return (IoC * 26)
+def shift_by(amount):
+    # shifts the alphabet by a given amount
+    # if amount is 2, then the shifted alphabet starts with c.
+    amount %= len(ALPHABET)
+    new_alph = ALPHABET[amount:]
+    new_alph = new_alph + ALPHABET[0:amount]
+    return new_alph
+
+def caesar(text, key, encrypt=False, alph=ALPHABET):
+    # implements the caesar shift on a given ciphertext. Assumes cleaned text.
+    # is used in more complex functions, such as vignere and beaufort cipher decryption.
+    if not encrypt:
+        key = -key
+
+    key %= len(alph)
+
+    result = ''
+
+    for char in text:
+        pos = alph.index(char)
+        result += alph[(pos + key) % len(alph)]
+
+    return result
