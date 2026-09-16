@@ -12,42 +12,40 @@ The code is intended to be readable, educational, and easy to modify.
 
 ---
 
-## Features
-
 ### Text Processing
 
-- Remove punctuation and non-alphabetic characters
-- Convert text to uppercase
-- Optionally preserve spaces
-- Accept multi-line text input
+ Remove punctuation and non-alphabetic characters
+ Convert text to uppercase
+ Optionally preserve spaces
+ Accept multi-line text input
 
 ### Vocabulary Analysis
 
-- Extract unique words from a body of text
-- Prepare text for further statistical analysis
+Extract unique words from a body of text
+ Prepare text for further statistical analysis
 
 ### Frequency Analysis
 
-- Calculate letter frequencies for A-Z
-- Optionally include space frequencies
-- Compare observed frequencies against standard English frequencies
+ Calculate letter frequencies for A-Z
+Optionally include space frequencies
+Compare observed frequencies against standard English frequencies
 
 ### Tetragram Analysis
 
-- Generate tetragram frequency tables
-- Export tetragram counts to text files
-- Useful for experimentation with classical cipher-breaking techniques
+ Generate tetragram frequency tables
+ Export tetragram counts to text files
+ Useful for experimentation with classical cipher-breaking techniques
 
 ### Statistical Tools
 
-- Chi-squared calculations
-- Text scoring using English letter frequencies
-- Vector inner products
-- Components for future cryptanalysis tools
+ Chi-squared calculations
+ Text scoring using English letter frequencies
+ Vector inner products
+ Components for future cryptanalysis tools
 
 ---
 
-## Why This Exists
+## Why I made this
 
 Many examples of cryptographic analysis online focus on using large libraries
 or prebuilt tools. This project takes the opposite approach.
@@ -57,6 +55,8 @@ understand how they work internally.
 
 This repository serves both as a learning project and as a toolkit that can be
 reused in future cipher experiments.
+
+Also, who are we kidding? It's fun.
 
 ---
 
@@ -81,30 +81,17 @@ This project was developed using information from a variety of educational
 sources, including:
 
 - *Classical Cryptography* by Thomas Kaeding (Madness)
-- Wikipedia articles relating to:
-  - Frequency analysis
-  - Chi-squared statistics
-  - Classical cryptography
-  - N-grams and tetragrams
+- Various Wikipedia articles
+- The National Cipher Challenge
+- The Brown corpus (for linguistic data)
+
+Special thanks to my high school teacher, Lisa Gittlemon, who encouraged me to first learn to code instead of kicking me out of her classroom when I got bored.
 
 Where external data files are used (for example tetragram frequency data),
 appropriate attribution should be preserved.
 
 ---
 
-## Goals
-
-Planned additions include:
-
-- Caesar cipher analysis
-- Vigenère cipher analysis
-- Index of Coincidence calculations
-- Cosine similarity scoring
-- Hill-climbing attacks
-- N-gram scoring improvements
-- Language comparison tools
-
----
 
 ## Disclaimer
 
