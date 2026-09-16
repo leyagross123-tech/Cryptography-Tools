@@ -49,7 +49,7 @@ def mono_sub(cipher, key, encrypt=False):
 
 def ancient_semitic_ciphers(text, method=0, alph=ALPHABET):
     text = clean(text)
-  
+    #Gematria is only for hebrew, and atbash and albam are not yet Heb-compatible.
     while method > 3 or method < 1: 
         method = int(input('Atbash - 1\nAlbam - 2\nGematria (beta) -3\n-->'))
     if method == 1: # Atbash
@@ -65,6 +65,20 @@ def ancient_semitic_ciphers(text, method=0, alph=ALPHABET):
         for char in text:
             if char in HEBREW_GEMATRIA:
                 total += HEBREW_GEMATRIA[char]
-        return 'The gematria of your text is', total
+        return 'The gematria of your text is' + total
+        
+def affine(text):
+    # implements the affine cipher on an English alphabet
+    # the formula for affine ciphertext is ax + b
+    valid_a = [1,3,5,7,9,11,15,17,19,21,23,25]
+    for a in valid_a:
+        for i in range(26):
+            if (a * i) % 26 == 1:
+                break
+        for b in range(26):
+            plain = ''
+            for char in text:
+                plain = plain + str(ALPHABET[(i*(ALPHABET.index(char) - b))%26])
+            if X_squared_text(plain) < 100:
+                return(plain)
 
-print(ancient_semitic_ciphers(ALPHABET))
