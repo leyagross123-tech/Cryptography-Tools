@@ -82,3 +82,42 @@ def affine(text):
             if X_squared_text(plain) < 100:
                 return(plain)
 
+def parse(text):
+    # an imperfect function that tries to parse decrypted text.
+    # without NLP I don't see how it can be perfect. Still, it's pretty awful.
+    dictionary = open('ranked_dict.txt').read().splitlines()
+    pointer = 0
+    proper_split = []
+    while pointer < len(text):
+        matches = []
+        for word in dictionary:
+            if text.startswith(word, pointer):
+                matches.append(word)
+        if not matches:
+            proper_split.append(text[pointer])
+            pointer += 1
+            continue
+        best = max(matches, key=len)
+        proper_split.append(best)
+        pointer += len(best)
+    return (' '.join(proper_split))
+
+def gen(key, mode=''):
+    # generates an alphabet key from a keyword
+    # choose mode L to generate a key appending the alphabet from the last letter of the keyword
+    temp = ''
+    for letter in key:
+        if letter not in temp:
+            temp = temp + letter
+        key = temp
+    if mode != 'L': #L = last letter mode
+        for char in alph:
+            if char not in key:
+                key = key + char
+    else:
+        temp = key + alph[alph.index(key[-1])+1:] + alph[:alph.index(key[-1])]
+        key = ''
+        for char in temp:
+            if char not in key:
+                key = key + char
+    return key
