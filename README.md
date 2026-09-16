@@ -91,6 +91,14 @@ Also, who are we kidding? It's fun.
 | `X_squared()` | Calculate a chi-squared statistic |
 | `X_squared_text()` | Compare text to expected English frequencies |
 | `inner_product()` | Calculate vector dot products |
+| `validate()` | Ensures input matches expected type |
+| `find_cosine_angle()` | Determines cosine similarity |
+| `IOC()` | Calculate index of coincidence |
+| `shift_by()` | Shifts alphabet |
+| `caesar()` | Basic implementation of caesar cipher |
+| `parse()` | Attempts to add spaces to text, badly
+| `split_blocks()` | Splits text into blocks of every nth letter |
+| `gen()` | Generates an alphabet key from a keyword |
 
 ---
 
