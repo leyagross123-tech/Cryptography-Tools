@@ -184,3 +184,16 @@ def parse(text):
         proper_split.append(best)
         pointer += len(best)
     return (' '.join(proper_split).lower())
+
+def split_blocks(text, number):
+    # Splits text into n blocks, adding every nth letter to block
+    blocks = []
+    block = ''
+    starter = 0
+    while starter != number:
+        for char in range(starter, len(text), number):
+            block = block + text[char]
+        blocks.append(block)
+        block = ''
+        starter = starter + 1
+    return blocks
