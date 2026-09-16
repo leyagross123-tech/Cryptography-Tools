@@ -164,3 +164,23 @@ def caesar(text, key, encrypt=False, alph=ALPHABET):
         result += alph[(pos + key) % len(alph)]
 
     return result
+
+def parse(text):
+    # an imperfect function that tries to parse decrypted text.
+    # without NLP I don't see how it can be perfect. Still, it's pretty awful.
+    dictionary = open('ranked_dict.txt').read().splitlines()
+    pointer = 0
+    proper_split = []
+    while pointer < len(text):
+        matches = []
+        for word in dictionary:
+            if text.startswith(word, pointer):
+                matches.append(word)
+        if not matches:
+            proper_split.append(text[pointer])
+            pointer += 1
+            continue
+        best = max(matches, key=len)
+        proper_split.append(best)
+        pointer += len(best)
+    return (' '.join(proper_split).lower())
