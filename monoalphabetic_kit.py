@@ -103,3 +103,4 @@ def gen(key, mode='', alph=ALPHABET):
             if char not in key:
                 key = key + char
     return key
+
