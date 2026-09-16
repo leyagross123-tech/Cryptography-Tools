@@ -55,7 +55,6 @@ def letter_freqs(text, spaces=False):
         letters.append(text.count(' ')/len(text) * 100)
         
     return letters
-
 def tetragram_freqs(text):
     # Writes tetragram frequencies to a file named by the user.
     # for tetragram frequencies in the Brown corpus, see text file in my Python folder.
@@ -70,16 +69,15 @@ def tetragram_freqs(text):
     # i.e. whilst pointer is not pointing to the fourth-last letter
         tetragrams.append(text[pointer:pointer+4])
         pointer += 1
-    
-    length_tets = len(tetragrams)
-    
     frequencies = Counter(tetragrams).most_common()
-    file_name = input('What to name the file? ') + '.txt'
+    file_name = input('What to name the file? ') + '.csv'
     
     with open(file_name,'w') as file:
         for item, count in frequencies:
-            count = round(count/length_tets * 100, 2)
-            file.write(f"{item} :: {count}\n")
+            count = round(count/len(tetragrams) * 100, 10)
+            if count < 0.0000001:
+                continue
+            file.write(f"{item},{count}\n")
         print(f'Tetragram frequencies successfully written to {file_name}')
 
 def X_squared(measured, expected):
