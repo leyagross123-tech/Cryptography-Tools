@@ -12,6 +12,25 @@ The code is intended to be readable, educational, and easy to modify.
 
 ---
 
+## Brown Corpus
+
+Some frequency data included in this project was generated using the
+Brown Corpus.
+
+The Brown Corpus contains copyrighted material and is subject to
+restrictions on reproduction and redistribution.
+
+To respect those restrictions, I have not included a copy of the
+Brown Corpus in this repository.
+
+Users wishing to obtain the corpus should consult the Brown Corpus
+documentation and obtain a copy from an authorised source.
+
+Source:
+https://listings.lib.msu.edu/public-corpora/cd421/manuals/brown/INDEX.HTM
+(accessed 16 September 2026)
+---
+
 ### Text Processing
 
  Remove punctuation and non-alphabetic characters
