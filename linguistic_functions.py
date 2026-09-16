@@ -107,7 +107,39 @@ def inner_product(vector1, vector2):
     
     if len(vector1) != len(vector2):
         print('ERROR!' * 59)
-        return('ERROR! MY KNICKERS ARE FALLING OFF!')
+        return 'Error #♾️: the length of the two vectors do not match'
     for i in range(len(vector1)):
         dot_product = dot_product + (vector1[i] * vector2[i])
     return dot_product
+
+def find_cosine_angle(vector1, vector2=standard_freqs):
+    # the smaller the cosine similarity, the closer the vectors match
+    # here is the mathematical formula for the cosine angle of vectors:
+    # U⋅V/√(U⋅U)(V⋅V)
+    try:
+        return inner_product(vector1, vector2)/math.sqrt(inner_product(vector1, vector1)* inner_product(vector2, vector2))
+    except TypeError:
+        print('\n\nPlease stay calm, I ran into an error. Here\'s the error code:', inner_product(vector1, vector2))
+        
+def IOC(text, blocksize = 1):
+    # The formula for the IoC of a given text is IoC = 26*∑(ni(ni-1))/N(N-1).
+    # The average IoC for English plaintext is 1.73, and random text would be about 1.0
+    # The IoC for the Brown Corpus is 1.7096108454908279.
+    IoC = 0
+    blocks = []
+    counter = 0
+    block = ''
+    
+    for char in text:
+        block = block + char
+        counter = counter + 1
+        if counter == blocksize:
+            blocks.append(block)
+            block = ''
+            counter = 0
+    freqs = Counter(blocks)
+    
+    for number in freqs.values():
+        IoC += (number * (number - 1)) / (len(text) * (len(text) - 1))
+    print(freqs)
+    return (IoC * 26)
