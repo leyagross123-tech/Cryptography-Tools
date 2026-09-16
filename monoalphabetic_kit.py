@@ -51,13 +51,13 @@ def ancient_semitic_ciphers(text, method=0, alph=ALPHABET):
     text = clean(text)
     #Gematria is only for hebrew, and atbash and albam are not yet Heb-compatible.
     while method > 3 or method < 1: 
-        method = int(input('Atbash - 1\nAlbam - 2\nGematria (beta) -3\n-->'))
+        method = int(input('Atbash - 1\nAlbam - 2\nGematria (beta) - 3\n-->'))
     if method == 1: # Atbash
         print('Succesfully decrypted with the Atbash cipher')
         return mono_sub(text, alph[::-1])
     elif method == 2: # Albam
         print('Succesfully decrypted with the Albam cipher')
-        return mono_sub(text, alph[len(alph)/2:] + alph[:len(alph)/2])        
+        return mono_sub(text, alph[len(alph)//2:] + alph[:len(alph)//2])        
     else:
       #The gematria option
         print('Gematria only works for Hebrew text.')
@@ -65,7 +65,7 @@ def ancient_semitic_ciphers(text, method=0, alph=ALPHABET):
         for char in text:
             if char in HEBREW_GEMATRIA:
                 total += HEBREW_GEMATRIA[char]
-        return 'The gematria of your text is' + total
+        return 'The gematria of your text is' + str(total)
         
 def affine(text):
     # implements the affine cipher on an English alphabet
@@ -84,7 +84,7 @@ def affine(text):
 
 
 
-def gen(key, mode=''):
+def gen(key, mode='', alph=ALPHABET):
     # generates an alphabet key from a keyword
     # choose mode L to generate a key appending the alphabet from the last letter of the keyword
     temp = ''
@@ -93,7 +93,7 @@ def gen(key, mode=''):
             temp = temp + letter
         key = temp
     if mode != 'L': #L = last letter mode
-        for char in alph:
+        for char in ALPHABET:
             if char not in key:
                 key = key + char
     else:
