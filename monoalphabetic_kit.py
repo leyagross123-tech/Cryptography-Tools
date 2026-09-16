@@ -84,23 +84,5 @@ def affine(text):
 
 
 
-def gen(key, mode='', alph=ALPHABET):
-    # generates an alphabet key from a keyword
-    # choose mode L to generate a key appending the alphabet from the last letter of the keyword
-    temp = ''
-    for letter in key:
-        if letter not in temp:
-            temp = temp + letter
-        key = temp
-    if mode != 'L': #L = last letter mode
-        for char in ALPHABET:
-            if char not in key:
-                key = key + char
-    else:
-        temp = key + alph[alph.index(key[-1])+1:] + alph[:alph.index(key[-1])]
-        key = ''
-        for char in temp:
-            if char not in key:
-                key = key + char
-    return key
+
 
