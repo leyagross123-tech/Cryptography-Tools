@@ -1,6 +1,7 @@
 from linguistic_functions import *
 
-HEBREW_ALPHABET = {
+HEB_ALPH = 'אבגדהוזחטיכלמנסעפצקרשת'
+HEBREW_GEMATRIA = {
     'א': 1,   'ב': 2,   'ג': 3,   'ד': 4,   'ה': 5,
     'ו': 6,   'ז': 7,   'ח': 8,   'ט': 9,
     'י': 10,  'כ': 20,  'ך': 20,
@@ -64,4 +65,6 @@ def ancient_semitic_ciphers(text, method=0, alph=ALPHABET):
         for char in text:
             if char in HEBREW_GEMATRIA:
                 total += HEBREW_GEMATRIA[char]
-        print('The gematria of your text is', total, end='.\n')
+        return 'The gematria of your text is', total
+
+print(ancient_semitic_ciphers(ALPHABET))
