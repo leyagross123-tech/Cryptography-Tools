@@ -82,6 +82,17 @@ def affine(text):
             if X_squared_text(plain) < 100:
                 return(plain)
 
+def multiplicative(text, key, mode="decrypt"):
+    # encrypts/decrypts the multiplicative cipher
+    solved = ''
+    keys = [1, 3, 5, 7, 9, 11, 15, 17, 19, 21, 23, 25]
+    if key not in keys:
+        return ''
+    if mode == 'decrypt':
+        inv = pow(key, -1, 26)   
+    for char in text:
+        solved = solved + ALPH[(ALPH.index(char) * key)%26]
+    return solved
 
 
 
