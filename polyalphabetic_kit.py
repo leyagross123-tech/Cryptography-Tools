@@ -12,7 +12,7 @@ def determine_period(text):
     lengths.append(i)
     avgs.append(avg_ioc)
 
-  if input('Press 'q' to opt out of viewing a graph of key lengths\n>> ').upper() != 'Q':
+  if input('Press \'q\' to opt out of viewing a graph of key lengths\n>> ').upper() != 'Q':
     plt.plot(lengths, avgs, marker='+')
     plt.xlabel("Key Length")
     plt.ylabel("Average IOC")
