@@ -89,9 +89,9 @@ def multiplicative(text, key, mode="decrypt"):
     if key not in keys:
         return ''
     if mode == 'decrypt':
-        inv = pow(key, -1, 26)   
+        key = pow(key, -1, 26)   
     for char in text:
-        solved = solved + ALPH[(ALPH.index(char) * key)%26]
+        solved = solved + ALPHABET[(ALPHABET.index(char) * key)%26]
     return solved
 
 
