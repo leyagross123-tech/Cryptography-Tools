@@ -139,8 +139,7 @@ def IOC(text, blocksize = 1):
     
     for number in freqs.values():
         IoC += (number * (number - 1)) / (len(text) * (len(text) - 1))
-    print(freqs)
-    return (IoC * 26)
+      return (IoC * 26)
 def shift_by(amount):
     # shifts the alphabet by a given amount
     # if amount is 2, then the shifted alphabet starts with c.
