@@ -1,4 +1,4 @@
-Linguistic Data for Testing Purposes
+Linguistic Data for Testing Purposes - compiled with test_data.py from the brown corpus
 Index of coincidence for a given plaintext length
 1.6256029684601112,441
 1.7980570559933873,1473
