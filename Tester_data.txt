@@ -1,0 +1,50 @@
+Linguistic Data for Testing Purposes
+Index of coincidence for a given plaintext length
+1.6256029684601112,441
+1.7980570559933873,1473
+1.615384615384615,169
+1.657035472839876,713
+1.6025412444035603,1078
+1.8584701393873,1151
+X-squared characteristic 
+23.589236962524843,399
+15.215804684193674,138
+54.255024954300985,1347
+60.21799373171929,1352
+62.34858085503091,729
+22.635954321210342,781
+Monogram frequencies for a given length (alphabetical order) 
+[6.74, 2.34, 3.46, 3.18, 14.04, 1.97, 1.97, 6.46, 6.93, 0.09, 0.0, 4.12, 4.78, 5.9, 5.9, 3.09, 0.0, 7.4, 6.65, 7.87, 2.34, 0.84, 2.15, 0.09, 1.69, 0.0],1068
+[6.55, 0.79, 1.19, 6.35, 13.1, 1.79, 2.18, 7.94, 5.95, 0.0, 0.99, 4.96, 0.99, 6.15, 6.75, 1.19, 0.0, 4.96, 7.34, 11.51, 2.98, 0.99, 3.37, 0.2, 1.39, 0.4],504
+[9.24, 5.88, 1.68, 3.36, 15.13, 0.84, 0.84, 5.04, 4.2, 0.0, 0.84, 10.08, 0.84, 5.88, 5.88, 0.84, 0.0, 5.88, 5.04, 11.76, 0.0, 0.84, 2.52, 0.84, 2.52, 0.0],119
+[7.14, 0.65, 5.19, 3.9, 9.74, 1.95, 3.9, 7.79, 7.14, 0.0, 1.95, 2.6, 1.95, 7.14, 11.69, 0.65, 0.0, 6.49, 3.9, 9.09, 2.6, 0.65, 3.25, 0.0, 0.65, 0.0],154
+[8.97, 3.14, 0.9, 4.93, 11.66, 1.35, 0.9, 7.62, 5.83, 0.0, 0.9, 3.14, 1.79, 6.73, 7.17, 2.24, 0.0, 4.04, 6.28, 13.0, 4.04, 0.45, 3.59, 0.45, 0.9, 0.0],223
+[7.85, 2.07, 2.96, 4.15, 14.37, 1.33, 1.48, 4.3, 6.67, 0.0, 0.15, 3.7, 1.63, 6.81, 9.04, 2.67, 0.0, 6.37, 8.15, 9.63, 1.78, 1.04, 2.96, 0.0, 0.89, 0.0],675
+Cosine angle between plaintext and slices 
+0.9938339534973962,535
+0.9773657024866644,1175
+0.9306548938171126,66
+0.9829223316811856,531
+0.9598174823307903,237
+0.9822568291303758,1251
+Parsed text for a given length 
+the same track previously cut an umber of adjustment features are included in the hesiometer to facilitate measurement and permit ready removal of coatings deposited on such substrates as iron and other metals glass wood and plastics u rf aces theme as u re men to ft op coats on primers canals ore ad il y be carried out hesiometer results have been found to compare excellently with manual knifes cr at ching tests thei ns tru mental method however isa bout times mores en sit ive andy ie ld s numerical results which can bea cc u rate l yre pe ate da tw il over ape rio do ft im e if awed ge shaped coating of increasing thickness is removed from as u bs tr ate by ani ns tru men t like the hesiometer with a knife of constant rake angle an umber of removal mechanisms are often observed which depend upon thet hick ne ss oft he c,671
+sl u c ys aid was ito nl ya few nights ago thatt hey had been standing together in front oft he house looking att hem oo nw ash ed river their arms around each other they had been talking oft he present and the future their talk and their feeling had been as deep and warm ass tee pe din light as thea ira round them then from within the stills lee ping house thet el eph one had rung myra with her news was on the other end oft hel in e jim turned back from the stairway and looked ath e rh is dark brows which had been lowered in anger smoothed please hes aid there isnt a chance of myras letting anything like that happen lets stay friends butt hey werent just friends lucy thought they were husband and wife and myra had nori g h t muddling and chilling their marriage the only thing that had ever come between them was that worth l,668
+found today they had the help of hundreds of neighbors and school friends while neighbor women assumed some oft hed e ad mothers duties fund raising events were being planned by ah ome owners association and as tu dent council forth eh a rd hit henry kowalski family viceroy mrs eleanor kowalski died yesterday afternoon in holy cross hospital of burnss u f fer ed in afire that followed abo tt led gas explosion saturday night att he flat of her widowed mother mrs mary pankowski in thea dj o in ing suburb of warrens e r vices tomorrow funerals e r vices form rs kowalski and herd aug h ter christine whod ie do f burns att hes ame hospital monday have been scheduled for amt o morrow ins tan ne sc ath ol icc h u r ch mound in warren them other and daughter who will beb u r ie d side by side in mt olivet cemetery rested together today inclosed caskets att hel y lee l l io tt funeral home mound warren mrs pankowski remained in holy cross hospital as ares u lt oft hee x pl os ion which occurred while mrs kowalski fueled a cooks to vein the grandmothers small upstairs flat ate i g h t mile road east held candle assistant fire chief chester cornell said gas fumes apparently were ignited by a candle which one oft he t,987
+grins indeterminate figure eugene lester assembled aw it t ya nd explicit score for ana me rican journey and malcolm mccormick gave its p rightly imaginative costumes mr nagrin has described four places each with its scenery and people added two diversions and concluded with at o cc at af or they o un gar e fresh ing l y underplayed interpretation of rocknroll dancing the places could bean y where thei di os y nc ra sie sand foibles observed there could bean y bodys and the laugh is onus all but we need not mind too much because mr nagrin has expressed it through movement that is diverting and clever almost all the way miss tamiris once upon at im eh isa problem piece abo u,555
+set hero f ft hed o g shave got herb aye d h shes just the others id eo ft hat bush and when they hadd raw n back as t eph e added jones is sitting on his horse right in front of her why shed o esn t charge him id on t know and he hasnt even got a knife on him he couldnt getaway from her in this kind of ground h careful dont disturb her jones had been about ah und red and fifty feet from her when he first broke through tothe top oft here e f she was standing on afl at rock three feet aboveground and when shes aw him she rose tofu l l height and roared opening her mouth wide lashing her tail and stamping att hero c k with both forefeet in irritation as much as to say howda rey oud ist u r b me in my sacred precinct intuition told him however thats he was tired and winded from ther un up there e fan dw ould notch a r ge yet hem o v ed forward tow it hint hir t y five feet of herb ein g careful because he knew the female isles sp red i cta b let han them ale in the graveyard at nairobi he had been shown the graves oft hir t y four big game hunters killed hunting thea ni mal she was attempting to lasso oft he thirty fours event ee n had been killed by lions and eleven out oft hes event ee n by lionesses shes na rl ed terribly but intuition told him again thats he was bluffing and he could see that half her attention was distracted by the dogs he threw the lasso it was falling over her head when abra nc ho fa bush caught it and it fell in front of heron ther o c k event hen if she took ones t e p forward he could catch herb u t john nipped herr ear end one lions rear end was as good as another to john africa arizona no matter and she changed ends and took asw i pe at john but hed u c k ed back jones then re co i,1353
+e s behind player and atone point in theaf ter noon had trailed by as many ass i xs tr ok esn o wall he had to dow as finish in even part o collect thet r op h ya nd the biggest single paycheck ingo l f when palmer hit ago o d straight drive up the fairway on then d hole hes ee med to have the championship won butt hes even irons hot he used to approach the greens tray ed into ab un k era nd lodged in as light depression in trying to hit ito u tw it ha,353
+Identified as monoalphabetic 
+False,1323
+False,622
+False,1124
+False,930
+False,571
+False,1144
+Probable keylength 
+15,1260
+18,640
+11,725
+16,1087
+19,1444
+1,0
