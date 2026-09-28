@@ -32,13 +32,15 @@ https://listings.lib.msu.edu/public-corpora/cd421/manuals/brown/INDEX.HTM
 ---
 ###
 The following books were also used, courtesy of Project Gutenberg:
-Peter Pan by J.M.Barrie
-A Christmas Carol (prose) by Charles Dickens
-Anne of Green Gables by L.M.Montgomery
-Les Miserables by Victor Hugo (translation Isabel Florence Hapgood)
-The Importance of Being Earnest by Oscar Wilde
-The Hound of the Baskervilles by Arthur Conan Doyle
+-Peter Pan by J.M.Barrie
+-A Christmas Carol (prose) by Charles Dickens
+-Anne of Green Gables by L.M.Montgomery
+-Les Miserables by Victor Hugo (translation Isabel Florence Hapgood)
+-The Importance of Being Earnest by Oscar Wilde
+-The Hound of the Baskervilles by Arthur Conan Doyle
+
 They were translated from Epub3 to .txt via CloudConvert.
+
 Source:
 https://www.gutenberg.org/
 (accessed 28 September 2026)
